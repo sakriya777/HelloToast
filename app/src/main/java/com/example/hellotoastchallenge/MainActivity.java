@@ -1,4 +1,4 @@
-package com.example.hellotoast;
+package com.example.hellotoastchallenge;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -30,6 +30,5 @@ public class MainActivity extends AppCompatActivity {
     public void show_toast(View view) {
         Toast toast = Toast.makeText(this, R.string.toast_message, Toast.LENGTH_SHORT);
         toast.show();
-
     }
 }
